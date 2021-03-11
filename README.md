@@ -1,7 +1,7 @@
 # SCIP
 Substances of Concern In Product
-Links
-[scip] (https://confluence.kone.cbyte.fi/display/PDMdevelopment/Installation "SCIP")
+
+[scip website](https://confluence.kone.cbyte.fi/display/PDMdevelopment/Installation "SCIP")
 
 ---
 Technology used
