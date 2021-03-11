@@ -25,7 +25,7 @@ use this command to clone app into your local
 2. cd scip
 3. git checkout master 
 ### angular app build
-1. Going to the client directory
+1. Go to the client directory
 ```
 cd client
 ```
@@ -61,7 +61,7 @@ cd server
 ```
 4. app build (gradle must be install on local)
 ```
-.\gradlew clean build
+gradle clean build
 ```
 
 ### Location of war file
