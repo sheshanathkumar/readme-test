@@ -11,7 +11,7 @@ Technology used
 | Angular 9 | Spring Boot| PostgreSql |
 
 ---
-## Installation (on linux machine)
+## Deployment from local (on linux machine)
 use this command to clone app into your local
 1. git clone https://gitlab.com/kone1/scip.git
 2. cd scip
