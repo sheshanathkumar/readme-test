@@ -39,13 +39,13 @@ cd ..
 ```
 
 ### java app build
-1. create a folder name static at server/src/main/resource location
+1. create a folder name static at server/src/main/resources location
 ```
-mkdir server/src/main/resource/static/  
+mkdir server/src/main/resources/static/
 ```
 2. copying all build file of angular to static folder
 ```
-cp client/dist/frontend/* server/src/main/resource/static/
+cp client/dist/frontend/* server/src/main/resources/static/
 ```
 3. going to server directory
 ```
