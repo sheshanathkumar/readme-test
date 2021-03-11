@@ -2,9 +2,7 @@
 Substances of Concern In Product
 
 ---
-This application has 2 parts
-1. Front end
-2. Back end 
+Technology used
 
 | Front End | Back End | Database |
 | --------- |  ---------| ------- |
