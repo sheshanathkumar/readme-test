@@ -8,10 +8,18 @@ Technology used
 
 | Front End | Back End | Database |
 | --------- |  ---------| ------- |
-| Angular 9 | Spring Boot| PostgreSql |
+| Angular 9 | Spring Boot| PostgreSql 12|
+| Node Js 12| Gradle 6.8 | -------- |
 
 ---
-## Deployment from local (on linux machine)
+
+## Prerequisite
+- Node Js [download node js](https://nodejs.org/dist/v14.16.0/node-v14.16.0-x64.msi "Node Js")
+- Gradle [download gradle](https://downloads.gradle-dn.com/distributions/gradle-6.8.3-all.zip, "Download Gradle")
+- manual to install gradle [gradle installation](https://gradle.org/install/, "Gradle Install")
+
+
+## Deployment from local
 use this command to clone app into your local
 1. git clone https://gitlab.com/kone1/scip.git
 2. cd scip
@@ -31,7 +39,7 @@ npm run build -- --prod
 ```
 4. Verify build file in your local
 ```
-ls -l dist/frontend/
+ls dist/frontend/
 ```
 5. Get back to scip directory
 ```
@@ -53,7 +61,7 @@ cd server
 ```
 4. app build (gradle must be install on local)
 ```
-./gradle clean build
+.\gradlew clean build
 ```
 
 ### Location of war file
