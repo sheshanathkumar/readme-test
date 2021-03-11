@@ -17,23 +17,23 @@ use this command to clone app into your local
 2. cd scip
 3. git checkout master 
 ### angular app build
-1. going to the client directory
+1. Going to the client directory
 ```
 cd client
 ```
-2. installing all component of node using node package manager. Node.js must be installed in local
+2. Installing all component of node using node package manager. Node.js must be installed on local
 ```
 npm install
 ```
-3. building angular app
+3. Building angular app
 ```
 npm run build -- --prod 
 ```
-4. verify build file in your local
+4. Verify build file in your local
 ```
 ls -l dist/frontend/
 ```
-5. get back to scip directory
+5. Get back to scip directory
 ```
 cd ..  
 ```
