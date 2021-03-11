@@ -9,7 +9,7 @@ Technology used
 | Front End | Back End | Database |
 | --------- |  ---------| ------- |
 | Angular 9 | Spring Boot| PostgreSql 12|
-| Node Js 12| Gradle 6.8 | -------- |
+| --------- | Gradle 6.8 | -------- |
 
 ---
 
