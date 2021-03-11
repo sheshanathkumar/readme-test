@@ -15,7 +15,6 @@ Technology used
 
 
 ## Prerequisite
-- Node Js [download node js](https://nodejs.org/en/download/ "Node Js")
 - Gradle [download gradle](https://downloads.gradle-dn.com/distributions/gradle-6.8.3-all.zip, "Download Gradle")
 - manual to install gradle [gradle installation](https://gradle.org/install/, "Gradle Install")
 
@@ -28,16 +27,11 @@ use this command to clone app into your local
 
 
 ### java app build
-1. create a folder name static at server/src/main/resources location
-```
-mkdir server/src/main/resources/static/
-```
-2. donwload build file of frontend from <link> and extract at server/src/main/resources/static/
-3. going to server directory
+1. going to server directory
 ```
 cd server
 ```
-4. app build (gradle must be install on local)
+2. app build (gradle must be install on local)
 ```
 gradle clean build
 ```
