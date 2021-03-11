@@ -51,7 +51,7 @@ cp client/dist/frontend/* server/src/main/resources/static/
 ```
 cd server     
 ```
-4. app build
+4. app build (gradle must be install on local)
 ```
 ./gradle clean build
 ```
