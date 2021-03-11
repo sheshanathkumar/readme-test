@@ -15,17 +15,44 @@ use this command to clone app into your local
 2. cd scip
 3. git checkout master 
 ### angular app build
-1. cd client                        <!--- going to the client directory -->
-2. npm install                      <!--- installing all component of node using node package manager. Node.js must be installed in local-->
-3. npm run build -- --prod          <!--- building angular app -->
-4. ls -l dist/frontend/             <!--- verify build file in your local.--> 
-5. cd ..                            <!--- get back to scip directory -->
+1. going to the client directory
+```
+cd client
+```
+2. installing all component of node using node package manager. Node.js must be installed in local
+```
+npm install
+```
+3. building angular app
+```
+npm run build -- --prod 
+```
+4. verify build file in your local
+```
+ls -l dist/frontend/
+```
+5. get back to scip directory
+```
+cd ..  
+```
 
 ### java app build
-1. mkdir server/src/main/resource/static/                           <!--- create a folder name static at server/src/main/resource location -->
-2. cp client/dist/frontend/* server/src/main/resource/static/       <!--- copying all build file of angular to static folder -->
-3. cd server                                                        <!--- going to server directory -->
-4. ./gradle clean build                                             <!--- app build -->
+1. create a folder name static at server/src/main/resource location
+```
+mkdir server/src/main/resource/static/  
+```
+2. copying all build file of angular to static folder
+```
+cp client/dist/frontend/* server/src/main/resource/static/
+```
+3. going to server directory
+```
+cd server     
+```
+4. app build
+```
+./gradle clean build
+```
 
 ### Location of war file
 > scip/server/src/build/lib/scip-0.0.1-SNAPSHOT.war
