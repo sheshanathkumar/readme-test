@@ -1,2 +1,2 @@
-# readme-test
+# SCIP
 Readme file
