@@ -7,6 +7,7 @@ use this command to clone app into your local
 git clone https://gitlab.com/kone1/scip.git
 
 This application has 2 parts
+> parts
 1- Front end
 2- Back end 
 
