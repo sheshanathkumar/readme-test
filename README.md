@@ -14,7 +14,7 @@ Technology used
 ---
 
 ## Prerequisite
-- Node Js [download node js](https://nodejs.org/dist/v14.16.0/node-v14.16.0-x64.msi "Node Js")
+- Node Js [download node js](https://nodejs.org/en/download/ "Node Js")
 - Gradle [download gradle](https://downloads.gradle-dn.com/distributions/gradle-6.8.3-all.zip, "Download Gradle")
 - manual to install gradle [gradle installation](https://gradle.org/install/, "Gradle Install")
 
