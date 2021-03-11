@@ -6,15 +6,16 @@ This application has 2 parts
 1. Front end
 2. Back end 
 
-| Front End | Back End |
-| --------- |  ---------|
-| Angular 9 | Spring Boot|
+| Front End | Back End | Database |
+| --------- |  ---------| ------- |
+| Angular 9 | Spring Boot| PostgreSql |
 
 ---
 ## Installation (on linux machine)
 use this command to clone app into your local
 1. git clone https://gitlab.com/kone1/scip.git
 2. cd scip
+3. git checkout master 
 ### angular app build
 1. cd client                        <!--- going to the client directory -->
 2. npm install                      <!--- installing all component of node using node package manager. Node.js must be installed in local-->
