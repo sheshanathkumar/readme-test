@@ -15,7 +15,7 @@ use this command to clone app into your local
 1. git clone https://gitlab.com/kone1/scip.git
 2. cd scip
 ### angular app build
-1. xyz
+1. cd client  #going to client directory
 2. xyz
 
 ### java app build
