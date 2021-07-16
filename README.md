@@ -2,7 +2,7 @@
 -----------------
 An standalone spring boot project to fetch tpdm data from tpdm server and convert data into xml, json and excel file.
 
-## Mendatory Steps for execution:
+## mandatory Steps for execution:
 >1- Go to TpdmHandler.java
 	line number 65 and change the directory where you want to create your files
 
