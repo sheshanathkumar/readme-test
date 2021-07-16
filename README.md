@@ -28,5 +28,5 @@ An standalone spring boot project to fetch tpdm data from tpdm server and conver
 		run command
 		java -jar ServicePIP-0.0.1.jar <equipment number> <level>
 	```
-file will created at direcory you change in step 1
+file will created at direcory you had changed in step 1
 	
