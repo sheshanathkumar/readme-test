@@ -1,42 +1,31 @@
-# SCIP
-Substances of Concern In Product
+# SERVICE PIP
+-----------------
+An standalone spring boot project to fetch tpdm data from tpdm server and convert data into xml, json and excel file.
 
-[Click here to read more about application](https://confluence.kone.cbyte.fi/display/PDMdevelopment/Installation "SCIP")
-
----
-Technology used
-
-| Front End | Back End | Database |
-| --------- |  ---------| ------- |
-| Angular 9 | Spring Boot| PostgreSql 12|
-| --------- | Gradle 6.8 | -------- |
-
----
-
-
-## Prerequisite
-- Gradle [download gradle](https://downloads.gradle-dn.com/distributions/gradle-6.8.3-all.zip, "Download Gradle")
-- manual to install gradle [gradle installation](https://gradle.org/install/, "Gradle Install")
-
-
-## Deployment from local
-use this command to clone app into your local
-1. git clone https://gitlab.com/kone1/scip.git
-2. cd scip
-3. git checkout master 
-
-
-### java app build
-1. going to server directory
-```
-cd server
-```
-2. app build (gradle must be install on local)
-```
-gradle clean build
-```
-
-### Location of war file
-> scip/server/src/build/lib/scip-0.0.1-SNAPSHOT.war
-
-> This file will be deploy on Elastic Bean Stalk
+## Mendatory Steps for execution:
+**1- Go to TpdmHandler.java**
+	line number 65 and change the directory where you want to create your files
+**2- Run 	Configuration**
+	this program is taking input via command line arguments so we need to run either by jar or by STS
+  ```
+	###Run by sts
+	----------
+		open project in sts got to RUN AS> Run Configuration > 
+		check name (must be ServicePIP - ServicePipApplication) {if not then run this application for trial}
+		got to arguments tab
+		put values in prograam arguments
+		<equipment number> <level>
+		apply and run
+	```
+  ```
+	###Run by jar
+	----------
+		open terminal inside project direcory
+		run .\gradlew clean build (it will prepare the jar file)
+		go to build > libs 
+		open terminal inside this direcory 
+		run command
+		java -jar ServicePIP-0.0.1.jar <equipment number> <level>
+	```
+file will created at direcory you change in step 1
+	
